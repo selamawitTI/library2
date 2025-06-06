@@ -20,3 +20,23 @@ public class Librarian {
   }
 
 }
+    // book search
+import java.util.ArrayList;
+
+public class Librarian {
+    private ArrayList<Book> library = new ArrayList<>();
+
+    public void addBook(String title, String author) {
+        library.add(new Book(title, author));
+    }
+
+    public void searchBook(String title) {
+        for (Book book : library) {
+            if (book.toString().contains(title)) {
+                System.out.println("Book found: " + book);
+                return;
+            }
+        }
+        System.out.println("Book not found.");
+    }
+}
