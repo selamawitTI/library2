@@ -1,8 +1,8 @@
+
 public class Loan {
 
-  public 0011 LoanId;
-
   public 2020 bookId;
+  public 0011 LoanId;
 
   public 1234 memberId;
 
@@ -10,5 +10,6 @@ public class Loan {
 
   public 1234 returnDate;
 
-    
 }
+
+    
