@@ -24,5 +24,6 @@ public class Book {
 
   public void getyear() {
   }
-
+  public static void main(String args[] ){
+System.out.println"title="+title;
 }
