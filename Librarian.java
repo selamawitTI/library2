@@ -40,3 +40,7 @@ public class Librarian {
         System.out.println("Book not found.");
     }
 }
+public int getTotalBooks(List<Book> books) {
+    return books.size();
+}
+
